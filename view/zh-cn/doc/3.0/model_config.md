@@ -10,8 +10,7 @@
         log_sql: true,
         log_connect: true,
       },
-      adapter: {
-        mysql: {
+      mysql: {
           host: '127.0.0.1',
           port: '',
           database: '', //数据库名称
@@ -20,7 +19,6 @@
           prefix: 'think_',
           encoding: 'utf8'
         }
-      }
     };
     ```
 - 编辑 `src/config/adater.js` 文件，增加 `exports.model = require('./adapter/model.js')`。
